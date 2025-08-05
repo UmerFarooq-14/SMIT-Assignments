@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+.bg {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/151f3e1e-b2c9-4626-afcd-6b39d0b2694f/web/PK-en-20241028-TRIFECTA-perspective_d61e8c48-8011-41d2-802a-60fdefe34a31_large.jpg);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-right: 30%;
+    margin: 10px 0px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.b1 {
+    background-color: red;
+    margin-top: 25px;
+    height: 50px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.b1:hover {
+    background-color: rgb(220, 45, 45);
+    cursor: pointer;
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cont1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#email {
+    background-color: rgba(19, 17, 17, 0.2);
+    height: 60px;
+    width: 500px;
+    border: 1px solid rgb(175, 173, 173);
+    border-radius: 3px;
+    color: white;
+}
+
+#email::placeholder {
+    padding-left: 20px;
+    font-weight: bold;
+    color: gray;
+    font-size: larger;
+}
+
+.b2 {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+}
+
+.b2:hover {
+    background-color: rgb(220, 45, 45);
+    cursor: pointer;
+}
+
+.content2 {
+    margin: 10px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#country {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(45, 43, 43);
+    margin: 20px 5px;
+    border-radius: 3px;
+}
+
+#movies {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(45, 43, 43);
+    margin: 20px 5px;
+    border-radius: 3px;
+}
+
+.drop {
+    background-color: white;
+    color: black;
+}
+
+.images {
+    margin: 10px;
+    margin-bottom: 8%;
+}
+
+.images:hover {
+    transition: 0.3s ease all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background: linear-gradient(140deg, rgba(4, 2, 37, 1) 0%, rgba(65, 10, 96, 1) 67%, rgba(52, 10, 61, 1) 100%);
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    color: cornsilk;
+}
+
+.h3 {
+    align-content: start;
+    padding: 10%;
+    gap: 15px;
+}
+
+.Questions {
+    display: grid;
+    grid-template-rows: repeat(6, 80px);
+    grid-template-columns: 88%;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.q {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(58, 57, 57);
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.plus {
+    font-size: 70px;
+    font-weight: 10;
+}
+
+.q:hover {
+    transition: 0.3s ease all;
+    background-color: rgb(79, 77, 77);
+    cursor: pointer;
+}
+
+.cont3 {
+    padding: 10px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+    margin-right: 20%;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(100, 99, 99);
+    gap: 20px;
+}
+
+a {
+    color: gray;
+}
+
+#link {
+    margin: 50px 0px 0px 0px;
+}

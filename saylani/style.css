@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 3px solid rgb(240, 236, 236);
+    padding: 5px;
+
+}
+ul{
+    /* display: flex; */
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+#home{
+    color: rgb(0, 76, 255);
+}
+li{
+    display: inline;
+    margin-right: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(148, 139, 139);
+    
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(117, 232, 117);
+    
+}
+.b1:hover{
+    transition: 0.3s ease all;
+    transform: scale(1.1);
+}
+.b2:hover{
+    transition: 0.3s ease all;
+    transform: scale(1.1);
+}
+
+.b1{
+    width: 170px;
+    padding: 15px 10px;
+    background-color:rgb(70, 70, 243); 
+    color: aliceblue;
+    font-weight: 600;
+    border: 2px solid rgb(70, 70, 243);
+    border-radius: 4px;
+
+}
+.b2{
+    width: 170px;
+    padding: 15px 10px;
+    background-color: rgb(136, 222, 65);
+    color: aliceblue;
+    font-weight: 600;
+    border: 2px solid rgb(154, 154, 223); 
+    border-radius: 4px;
+
+}
+.content{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text{
+  
+    margin-top: 9%;
+    margin-left: 3%;
+    font-size: larger;
+    color: rgb(62, 61, 61);
+}
+.image{
+    margin-top:20px;
+}
+#Saylani{
+    color: rgb(136, 222, 65) ;
+}
+#health{
+    color: rgb(32, 128, 237);
+}
+#a{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    
+}
+#a>a:hover{
+    text-decoration: none;
+}
+.carousel-image{
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+.box-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#heading{
+    text-align: center;
+    margin: 20px;
+    color: rgb(32, 30, 30);
+}
+.box{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid; */
+    align-content: center;
+    text-align: center;
+    padding: 0% 1%;
+    margin: 2%  1%;
+    margin-bottom: 5%;
+    font-size: 18px;
+    background-color: rgb(244, 233, 219);
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease all;
+}
