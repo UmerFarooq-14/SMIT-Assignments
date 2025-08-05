@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Aldrich", serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0rem;
+    position: sticky;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+.logo{
+    margin-right: 20%;
+}
+.links ul{
+    display: flex;
+    justify-content: stretch;
+    gap: 16%;
+    margin-left: 5%; 
+}
+.links ul li{
+    list-style: none;
+    color: #B7B7B7;
+    font-size: 14px;
+    transition: 0.3s ease all;
+}
+.links ul li:hover, .list ul li:hover{
+    color: #111111;
+    text-decoration: underline 3px #0ECE91;
+    cursor: pointer;
+    
+}
+.links .home{
+    color: #111111;
+    text-decoration: underline 3px #0ECE91;
+}
+.icons i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.heading{
+    font-size:36px;
+    margin: 4% 8%;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    color: #B7B7B7;
+    margin-bottom: 10%;
+    font-size: 16px;
+    transition: 0.3s ease all;
+}
+.list ul li{
+    font-weight: 100;
+}
+.list .all{
+    color:#111111 ;
+    text-decoration: underline 3px #0ECE91;
+    list-style: none;
+}
+.image img{
+    width: 24%;
+    height: 300px;
+    margin-left: 1%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 1% 5% 2% 5%;
+    padding-top: 20px;
+    margin-top: 7%;
+}
+.description{
+    color: #B7B7B7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description i{
+    color: #B91B1B;
+}
+.ftr-icons i{
+    color: aliceblue;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 1200px) {
+    .links ul{
+        gap: 15px;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:768px) {
+    .links ul{
+        display: none;
+    }
+    footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image img{
+        width: 47%;
+        margin-left: 2%;
+    }
+    .heading p{
+        font-size: 24px;
+    }
+    .description{
+        text-align: center;
+    }
+}
+@media screen and (max-width:425px) {
+    .links{
+        display: none;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .list ul{
+        gap: 15%;
+    }
+    .image img{
+        width: 95%;
+    }
+    .description{
+        text-align: center;
+    }
+}
+
